@@ -1,0 +1,15 @@
+{
+  "name": "gladys-google-home",
+  "version": "0.1.0",
+  "description": "Gladys module to control Google Home",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tomadj",
+  "license": "CC-BY-NC-SA-3.0",
+  "dependencies": {
+    "castv2-client": "^1.2.0",
+    "mdns": "^2.3.4"
+  }
+}
