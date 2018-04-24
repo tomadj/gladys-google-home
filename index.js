@@ -4,6 +4,8 @@
 
 const install = require('./lib/install');
 const init = require('./lib/init');
+const notify = require('./lib/notify');
+const say = require('./lib/say');
 const video = require('./lib/video/video');
 
 
@@ -16,6 +18,8 @@ module.exports = function (sails) {
   return {
     install,
     init,
+    notify,
+    say,
     video,
     music: video
   }
