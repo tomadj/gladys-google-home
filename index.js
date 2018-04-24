@@ -7,11 +7,15 @@ const init = require('./lib/init');
 const video = require('./lib/video/video');
 
 
-module.exports = function(sails) {
+module.exports = function (sails) {
+
+  gladys.on('ready', function () {
+    init();
+  });
 
   return {
-    install : install,
-    init:init,
+    install,
+    init,
     video,
     music: video
   }
